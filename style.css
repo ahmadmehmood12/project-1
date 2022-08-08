@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: -webkit-body;
+}
+
+#header{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar
+{
+ background-image: linear-gradient(to right, #4287f5, #4251f5);
+
+}
+.navbar ul li a{
+	color: white;
+	font-weight: 400;
+}
+.navbar .navbar-toggler i{
+	color: white;
+}
+.main-Hero{
+	background-image: linear-gradient(to right, #4287f5, #4251f5);
+
+}
+html{
+	scroll-behavior: smooth;
+}
+
+/* card section */
+.card-section .container .cards{
+  font-weight: 500;
+
+}
+.card-img{
+	width: 100%;
+}
+.brdr{
+	border-bottom: 2px solid black;
+	border-width: 200px;
+	bor
+   
+
+}
+.title{
+	border-bottom: 5px solid #32a6a8;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.about-us{
+	background-image: url("key.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+.about-us div li{
+	color: white;
+	font-weight: 300;
+	font-size: 25px;
+}
+.about-us div h2{
+	color: #32a6a8;
+}
+.lne{
+	color: yellow;
+}
+
+#testimonals{
+	background-image: url("maxim.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+.imgs1{
+	width: 11% !important;
+}
+#social-media .social-icons img{
+	width: 50px;
+	padding: 10px;
+	transition: 0.5s;
+}
+#social-media{
+	background-color: #fafafa;
+}
+#social-media .social-icons a:hover img{
+	transform: translatey(-10px);
+}
+.foot-head{
+	color: #f79784;
+	font-size: 26px;
+	font-weight: 400;
+}
+.foot-head2{
+    font-size: 36px !important;
+    line-height: 46px;
+}
+#contact-us{
+	    background-image: linear-gradient(to right, #3e516e, #0f1022);
+}
+#foot .adddress{
+	   font-weight: 400;
+    font-size: 18px;
+
+}
+#foot div #phone-no:hover{
+ color: red;
+}
+#foot div #mail:hover{
+ color: red;
+}
+.social-icons a:hover img{
+	transform: translatey(-10px);
+}
+.social-icons img{
+
+	transition: 0.5s;
+}
